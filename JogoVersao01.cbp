@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="JogoVersao01" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/JogoVersao01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/JogoVersao01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Users/diego/OneDrive/Documentos/Dev/SFML-2.5.0/include" />
+			<Add directory="D:/SFML-2.5.0/include" />
+			<Add directory="../SFML/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/include" />
+			<Add directory="C:/Users/a2128047/Desktop/Nova pasta/SFML-2.5.0/include" />
+			<Add directory="C:/Users/a2128047/Desktop/SFML-2.5.0/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/diego/OneDrive/Documentos/Dev/SFML-2.5.0/lib" />
+			<Add directory="D:/SFML-2.5.0/lib" />
+			<Add directory="../SFML/SFML-2.5.0-windows-gcc-5.1.0-tdm-32-bit/SFML-2.5.0/lib" />
+			<Add directory="C:/Users/a2128047/Desktop/Nova pasta/SFML-2.5.0/lib" />
+			<Add directory="C:/Users/a2128047/Desktop/SFML-2.5.0/lib" />
+		</Linker>
+		<Unit filename="Barril.cpp" />
+		<Unit filename="Barril.h" />
+		<Unit filename="BolaFogo.cpp" />
+		<Unit filename="BolaFogo.h" />
+		<Unit filename="COLLIDER.CPP" />
+		<Unit filename="COLLIDER.H" />
+		<Unit filename="Caixa.cpp" />
+		<Unit filename="Caixa.h" />
+		<Unit filename="Castelo.cpp" />
+		<Unit filename="Castelo.h" />
+		<Unit filename="Cavaleiro.cpp" />
+		<Unit filename="Cavaleiro.h" />
+		<Unit filename="Dragao.cpp" />
+		<Unit filename="Dragao.h" />
+		<Unit filename="ENTIDADE.CPP" />
+		<Unit filename="ENTIDADE.H" />
+		<Unit filename="Espinho.cpp" />
+		<Unit filename="Espinho.h" />
+		<Unit filename="Fase.cpp" />
+		<Unit filename="Fase.h" />
+		<Unit filename="Fim.cpp" />
+		<Unit filename="Fim.h" />
+		<Unit filename="Floresta.cpp" />
+		<Unit filename="Floresta.h" />
+		<Unit filename="Guerreiro.cpp" />
+		<Unit filename="Guerreiro.h" />
+		<Unit filename="Inimigo.cpp" />
+		<Unit filename="Inimigo.h" />
+		<Unit filename="JOGADOR.CPP" />
+		<Unit filename="JOGADOR.H" />
+		<Unit filename="Jogo.cpp" />
+		<Unit filename="Jogo.h" />
+		<Unit filename="Lista.h" />
+		<Unit filename="ListaEntidades.cpp" />
+		<Unit filename="ListaEntidades.h" />
+		<Unit filename="ListaInimigos.cpp" />
+		<Unit filename="ListaInimigos.h" />
+		<Unit filename="ListaObstaculos.cpp" />
+		<Unit filename="ListaObstaculos.h" />
+		<Unit filename="ListaPlataformas.cpp" />
+		<Unit filename="ListaPlataformas.h" />
+		<Unit filename="ListaProjeteis.cpp" />
+		<Unit filename="ListaProjeteis.h" />
+		<Unit filename="MagiaMana.cpp" />
+		<Unit filename="MagiaMana.h" />
+		<Unit filename="MagiaVerde.cpp" />
+		<Unit filename="MagiaVerde.h" />
+		<Unit filename="MagoI.cpp" />
+		<Unit filename="MagoI.h" />
+		<Unit filename="MagoP.cpp" />
+		<Unit filename="MagoP.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="MenuPause.cpp" />
+		<Unit filename="MenuPause.h" />
+		<Unit filename="MenuPrincipal.cpp" />
+		<Unit filename="MenuPrincipal.h" />
+		<Unit filename="Obstaculo.cpp" />
+		<Unit filename="Obstaculo.h" />
+		<Unit filename="Personagem.cpp" />
+		<Unit filename="Personagem.h" />
+		<Unit filename="Plataforma.cpp" />
+		<Unit filename="Plataforma.h" />
+		<Unit filename="Projetil.cpp" />
+		<Unit filename="Projetil.h" />
+		<Unit filename="Ranking.cpp" />
+		<Unit filename="Ranking.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="sfml-audio-2.dll" />
+		<Unit filename="sfml-audio-d-2.dll" />
+		<Unit filename="sfml-graphics-2.dll" />
+		<Unit filename="sfml-graphics-d-2.dll" />
+		<Unit filename="sfml-network-2.dll" />
+		<Unit filename="sfml-network-d-2.dll" />
+		<Unit filename="sfml-system-2.dll" />
+		<Unit filename="sfml-system-d-2.dll" />
+		<Unit filename="sfml-window-2.dll" />
+		<Unit filename="sfml-window-d-2.dll" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
